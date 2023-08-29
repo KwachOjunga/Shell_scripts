@@ -1,0 +1,7 @@
+#!/bin/bash
+
+######################################################################
+# listing files in long format, time of modification and reverse order
+######################################################################
+
+ls -ltr #t - time; r- reverse; l -long
