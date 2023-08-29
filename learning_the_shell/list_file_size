@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+#################################################################
+#    Listing file sizes in a directory
+##################################################################
+
+ls -lsh # s - file size;h- human readable format instead of bytes
