@@ -1,0 +1,8 @@
+#!/bin/bash
+
+############################################
+#	Creating and copying 
+############################################
+
+touch tlc.txt
+cp -i tlc.txt .. # copying files interactively
