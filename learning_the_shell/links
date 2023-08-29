@@ -7,3 +7,6 @@
 #Creating a file and making it a hard link
 touch tlc.txt
 ln tlc.txt tlc
+
+#Checking if the file is a link
+ls -li #i- inode option to confirm if the inode numbers are similar
