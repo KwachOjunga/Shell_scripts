@@ -1,0 +1,8 @@
+#!/bin/bash
+
+###############################################
+# 	Creating files
+################################################
+
+touch tlc.txt			#creates a single text file name tlc
+touch tlc.txt tlc.sh tlc.c 	#creates multiple files with name tlc but different extensions 
