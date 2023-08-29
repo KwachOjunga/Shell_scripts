@@ -1,0 +1,9 @@
+#!/bin/bash
+
+####################################################################
+#	The following file deals with links
+#####################################################################
+
+#Creating a file and making it a hard link
+touch tlc.txt
+ln tlc.txt tlc
