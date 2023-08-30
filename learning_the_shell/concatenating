@@ -1,0 +1,9 @@
+#!/bin/bash
+
+###############################################################
+#                       Concatenating files
+###############################################################
+
+echo "Most fruits are usually sweet" > fruits.txt
+echo "while vegetables are not particularly appetising." > vegetables.txt
+cat fruits.txt vegetables.txt > food.txt
