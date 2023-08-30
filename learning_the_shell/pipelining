@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#########################################################################
+#       Stringing multiple commands to take on each other's output
+#########################################################################
+
+mkdir fruits && cd fruits
+touch fruits.txt | cp fruits.txt ..
+
+#creates a folder fruits, and changes directory into fruits, creates file fruits.txt and copies file to parent folder
