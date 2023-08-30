@@ -1,0 +1,7 @@
+#!/bin/bash
+
+###################################################################
+#	Appending details to a file
+###################################################################
+
+echo "This file contains details of the file /etc/passwd" >> passwd.txt
