@@ -1,0 +1,9 @@
+#!/bin/bash
+
+########################################################################
+#	Redirecting standard output to a file
+#########################################################################
+
+ls -lsh /etc/passwd > passwd.txt
+
+# The output of /etc/passwd file is output to passwd.txt file
