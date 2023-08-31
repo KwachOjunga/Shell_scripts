@@ -1,0 +1,13 @@
+#!/bin/bash
+
+##################################################################
+#			Literally viewing a file
+##################################################################
+
+#Using head
+#from the text file created in *_append
+
+head *.txt
+
+# to view first five lines in the file
+head -n 5 *.txt
