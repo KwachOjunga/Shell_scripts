@@ -5,3 +5,4 @@
 ###################################################################
 
 echo "This file contains details of the file /etc/passwd" >> passwd.txt
+echo $(cat /etc/passwd) >> passwd.txt
