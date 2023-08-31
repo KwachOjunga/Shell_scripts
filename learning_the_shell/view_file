@@ -11,3 +11,14 @@ head *.txt
 
 # to view first five lines in the file
 head -n 5 *.txt
+
+#Using the tail command
+#Quite similar to the head command
+ 
+tail *.txt
+
+tail -n 5 *.txt
+
+#to view a dynamically changing file
+
+#tail -f **filename**
