@@ -1,0 +1,14 @@
+#!/bin/bash
+
+let no1=10; 			#The syntax for specifying a variable is quite specific.
+let no2=3;
+let res=$no1+$no2;
+
+echo $(($no1 + $no2))
+echo $res
+echo $[no1+no2] 		#Both methods also appear to output the sums in an equal manner.
+
+echo $((4**2));			#Using ^ does not yield a similar outcome
+#echo "4^2"|bc;			#Alternatively using the bc command. 
+				#This apparently does not function in a MINGW64 
+				#environment as it would in a Linux distro.
