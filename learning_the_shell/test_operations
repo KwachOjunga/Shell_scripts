@@ -1,0 +1,25 @@
+###########################################################
+#	Using the test command and it's equivalent[ ] 
+###########################################################
+
+//for the integer operators use
+// -eq -> equal to
+// -ne -> not equal to
+// -lt -> less than
+// -ge -> greater than or equal to 
+// -gt -> greater than 
+
+
+//for file operators
+// -f ordinary file
+// -r readable file
+// -x executable file
+// -w writable file
+// -d directory file
+// -L file is a symbolic link
+// -e file exists
+
+# syntax
+# test expression
+#	alt
+# [ expression ]  --> Note the spaces after and before the opening and closing brackets.
