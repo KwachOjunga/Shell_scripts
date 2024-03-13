@@ -18,6 +18,7 @@
 // -d directory file
 // -L file is a symbolic link
 // -e file exists
+// -s check if a file is empty --> particularly useful when redirecting errors to a file
 
 # syntax
 # test expression
