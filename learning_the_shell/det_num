@@ -1,0 +1,14 @@
+#!/bin/bash
+
+name="$1"
+echo "$1"
+
+val=$(echo {0..9}{0..9}{0..9}|grep $1)
+if [ $? -eq 0 ]
+then
+	echo "Value is a number between 0-999"
+else
+	echo "Value is not a number between 0-999"
+fi
+
+
